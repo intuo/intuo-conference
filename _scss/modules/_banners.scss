@@ -9,7 +9,7 @@
   left: 0;
   margin: 0 auto;
   text-align: center;
-  text-shadow: 0 5px 10px rgba($black, .1);
+  text-shadow: 0 10px 20px rgba($black, .2);
   transform: translateY(-50%);
 
   &.is-small {
@@ -44,7 +44,6 @@
   margin-top: -40px;
   font-size: 90px;
   font-style: italic;
-  font-weight: 300;
   color: $white;
 
   strong {
@@ -53,6 +52,7 @@
 
   p {
     margin: 0;
+    font-weight: 100;
     line-height: 100px;
   }
 
@@ -65,8 +65,9 @@
   margin-left: 280px;
   font-size: 22px;
   font-style: italic;
+  font-weight: 300;
   color: $white;
-  opacity: .7;
+  opacity: 1;
 }
 
 .banner-intro {
@@ -75,8 +76,9 @@
   margin-left: 30px;
   font-size: 22px;
   font-style: italic;
+  font-weight: 300;
   color: $white;
-  opacity: .7;
+  opacity: 1;
 }
 
 .banner-logo {
