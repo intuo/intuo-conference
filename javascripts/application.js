@@ -2,7 +2,7 @@
 
 $(function() {
   var currentPosition = 0;
-  particlesJS.load('particles',
+  particlesJS('particles',
     {
       "particles": {
         "number": {
