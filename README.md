@@ -3,6 +3,11 @@ INTUO Conference
 
 Small application for the INTUO conference including full setup for Jekyll, GulpJS, SASS, AutoPrefixer &amp; BrowserSync.
 
+## How to access
+
+- [Big screen](http://nerds.intuo.io/intuo-conference)
+- [Auditorium](http://nerds.intuo.io/intuo-conference/auditorium)
+
 ## System Preparation
 
 To use this starter project, you'll need the following things installed on your machine.
