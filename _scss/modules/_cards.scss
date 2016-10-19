@@ -1,0 +1,84 @@
+// =============================================================================
+// Cards
+// =============================================================================
+
+.card {
+  position: relative;
+  margin: 80px;
+  text-shadow: 0 5px 10px rgba($black, .3);
+
+  &.is-centered {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    left: 0;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    transform: translateY(-50%) scale(1.5);
+    transform-origin: center center;
+
+    .card-info {
+      text-align: left;
+    }
+  }
+}
+
+.card-title {
+  margin-bottom: 15px;
+  font-size: 28px;
+  letter-spacing: 1.5px;
+  color: $white;
+  text-transform: uppercase;
+}
+
+.card-user {
+  display: none;
+  color: $white;
+
+  &.is-visible {
+    display: inline-block;
+  }
+}
+
+.card-image {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+  box-shadow: 0 5px 10px rgba($black, .1);
+}
+
+.card-info {
+  padding-top: 10px;
+  margin-left: 150px;
+}
+
+.card-name {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.card-description {
+  font-size: 24px;
+  font-style: italic;
+  opacity: .7;
+}
+
+@include breakpoint(medium) {
+  .card {
+    transform: scale(.7);
+    transform-origin: left top;
+  }
+}
+
+@include breakpoint(large) {
+  .card {
+    transform: scale(1.1);
+    transform-origin: left top;
+
+    &.is-centered {
+      transform: translateY(-50%) scale(2.2);
+    }
+  }
+}
