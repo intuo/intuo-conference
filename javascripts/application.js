@@ -2,7 +2,52 @@
 
 $(function() {
   var currentPosition = 0;
-  particlesJS.load('particles', '/javascripts/assets/particles.json');
+  particlesJS('particles',
+    {
+      "particles": {
+        "number": {
+          "value": 15
+        },
+        "size": {
+          "value": 2,
+          "random": false
+        },
+        "opacity": {
+          "value": 0,
+          "random": false
+        },
+        "line_linked": {
+          "enable": true,
+          "distance": 300,
+          "color": "#ffffff",
+          "opacity": 0.50,
+          "width": 2
+        },
+        "move": {
+          "enable": true,
+          "speed": 0.5,
+          "bounce": true
+        }
+      },
+      "interactivity": {
+        "detect_on": "canvas",
+        "events": {
+          "hover": {
+            "enable": true,
+            "mode": "repulse"
+          },
+          "resize": true
+        },
+        "modes": {
+          "repulse": {
+            "distance": 50,
+            "duration": 0.2
+          }
+        }
+      },
+      "retina_detect": true
+    }
+  );
 
   function formatAMPM() {
     var date = new Date();
