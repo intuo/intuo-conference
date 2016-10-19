@@ -1,5 +1,0 @@
-name: INTUO Conference
-author: Falko Joseph
-markdown: redcarpet
-highlighter: pygments
-exclude: ["node_modules", "gulpfile.js", "package.json"]
