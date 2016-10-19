@@ -419,7 +419,7 @@ img {
   left: 0;
   margin: 0 auto;
   text-align: center;
-  text-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  text-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%); }
   .banner.is-small {
@@ -447,12 +447,12 @@ img {
   margin-top: -40px;
   font-size: 90px;
   font-style: italic;
-  font-weight: 300;
   color: #fff; }
   .banner-description strong {
     font-weight: 600; }
   .banner-description p {
     margin: 0;
+    font-weight: 100;
     line-height: 100px; }
   .banner-description .second-line {
     margin-left: 40px; }
@@ -461,8 +461,9 @@ img {
   margin-left: 280px;
   font-size: 22px;
   font-style: italic;
+  font-weight: 300;
   color: #fff;
-  opacity: .7; }
+  opacity: 1; }
 
 .banner-intro {
   position: relative;
@@ -470,8 +471,9 @@ img {
   margin-left: 30px;
   font-size: 22px;
   font-style: italic;
+  font-weight: 300;
   color: #fff;
-  opacity: .7; }
+  opacity: 1; }
 
 .banner-logo {
   margin-bottom: 20px;
@@ -594,6 +596,7 @@ img {
 .card-title {
   margin-bottom: 15px;
   font-size: 28px;
+  font-weight: 300;
   letter-spacing: 1.5px;
   color: #fff;
   text-transform: uppercase; }
@@ -647,7 +650,7 @@ img {
   right: 65px;
   font-size: 26px;
   font-style: italic;
-  font-weight: 600;
+  font-weight: 100;
   color: #fff;
   opacity: .5;
   -webkit-transform-origin: right top;
@@ -660,8 +663,8 @@ img {
 
 @media all and (min-width: 1920px) {
   .clock {
-    -webkit-transform: scale(2);
-            transform: scale(2); } }
+    -webkit-transform: scale(2.1);
+            transform: scale(2.1); } }
 
 .particles {
   position: absolute;
