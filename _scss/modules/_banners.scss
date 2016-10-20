@@ -15,12 +15,16 @@
   &.is-small {
     position: relative;
     top: 0;
-    margin: 40px;
+    margin: 60px;
     transform: none;
 
     .banner-logo {
-      margin-left: 90px;
+      margin-left: 80px;
       text-align: left;
+
+      img {
+        height: 80px;
+      }
     }
 
     .banner-transform {
@@ -86,6 +90,10 @@
   margin-left: -135px;
   text-align: center;
 
+  &.has-margin {
+    margin-bottom: 55px;
+  }
+
   img {
     display: inline-block;
     height: 60px;
@@ -100,6 +108,6 @@
 
 @include breakpoint(large) {
   .banner-transform {
-    transform: scale(2.1);
+    transform: scale(2.5);
   }
 }

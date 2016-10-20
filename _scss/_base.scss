@@ -8,7 +8,9 @@
 *,
 *::before,
 *::after {
+  cursor: default;
   box-sizing: border-box;
+  user-select: none;
 }
 
 html {

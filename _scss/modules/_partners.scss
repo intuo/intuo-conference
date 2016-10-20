@@ -8,23 +8,17 @@
   z-index: 1;
   width: 100%;
   text-align: center;
-  opacity: .3;
+  opacity: .4;
+  transform-origin: center center;
 
   img {
     display: inline-block;
-    max-height: 70px;
-    transform-origin: center center;
-  }
-}
-
-@include breakpoint(medium) {
-  .partners img {
-    transform: scale(.7);
+    height: 36px;
   }
 }
 
 @include breakpoint(large) {
-  .partners img {
-    transform: scale(1);
+  .partners {
+    transform: scale(1.5);
   }
 }
