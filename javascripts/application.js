@@ -20,12 +20,12 @@ $(function() {
           "enable": true,
           "distance": 300,
           "color": "#ffffff",
-          "opacity": 0.50,
+          "opacity": 0.58,
           "width": 2
         },
         "move": {
           "enable": true,
-          "speed": 0.5,
+          "speed": 1,
           "bounce": true
         }
       },
