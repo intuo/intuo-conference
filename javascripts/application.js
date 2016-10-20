@@ -20,7 +20,7 @@ $(function() {
           "enable": true,
           "distance": 300,
           "color": "#ffffff",
-          "opacity": 0.58,
+          "opacity": 0.52,
           "width": 2
         },
         "move": {
