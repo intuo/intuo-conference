@@ -61,7 +61,7 @@ $(function() {
     $('.clock').html(strTime);
   }
 
-  setTimeout(formatAMPM(), 1000);
+  setInterval(formatAMPM(), 60000);
 
   function prev() {
     $('.card-user').removeClass('is-visible');

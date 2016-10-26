@@ -1,6 +1,5 @@
 name: INTUO Conference
 author: Falko Joseph
 exclude: ["node_modules", "gulpfile.js", "package.json"]
-# baseurl: /
 baseurl: /intuo-conference/
 permalink: pretty
